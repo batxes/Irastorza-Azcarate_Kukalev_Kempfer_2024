@@ -407,9 +407,9 @@ cast_h3k27ac = root+"H3K27Ac.CAST.specific.peaks.bed"
 s129_h3k27ac = root+"H3K27Ac.S129.specific.peaks.bed"
 common_h3k27ac = root+"H3K27Ac.common.peaks.bed"
 
-k27me3 = "F123.K27me3.BCP_peaks.HM_mode.bed"
-s5p = "F123.S5p.BCP_peaks.HM_mode.bed"
-s7p = "F123.S7p.BCP_peaks.HM_mode.bed"
+k27me3 = root+"F123.K27me3.BCP_peaks.HM_mode.bed"
+s5p = root+"F123.S5p.BCP_peaks.HM_mode.bed"
+s7p = root+"F123.S7p.BCP_peaks.HM_mode.bed"
 
 cast_pb = pb.BedTool.from_dataframe(cast_df)
 s129_pb = pb.BedTool.from_dataframe(s129_df)
